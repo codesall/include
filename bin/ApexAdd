@@ -1,0 +1,12 @@
+public class FirstClass {
+
+    public static void Addition() {
+        Integer a = 4;
+        Integer b = 5;
+        Integer c = a + b;
+
+        System.debug('Addition = ' + c);
+    }
+}
+
+// FirstClass.Addition();

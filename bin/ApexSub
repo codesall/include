@@ -1,0 +1,12 @@
+public class FirstClass {
+
+    public static void Subtraction() {
+        Integer a = 9;
+        Integer b = 4;
+        Integer c = a - b;
+
+        System.debug('Subtraction = ' + c);
+    }
+}
+
+// FirstClass.Subtraction();

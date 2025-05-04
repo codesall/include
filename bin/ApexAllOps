@@ -1,0 +1,41 @@
+public class FirstClass {
+
+    public static void Add() {
+        Integer a = 10;
+        Integer b = 5;
+        Integer c = a + b;
+        System.debug('Addition = ' + c);
+    }
+
+    public static void Subtract() {
+        Integer a = 10;
+        Integer b = 5;
+        Integer c = a - b;
+        System.debug('Subtraction = ' + c);
+    }
+
+    public static void Multiply() {
+        Integer a = 10;
+        Integer b = 5;
+        Integer c = a * b;
+        System.debug('Multiplication = ' + c);
+    }
+
+    public static void Divide() {
+        Decimal a = 10;
+        Decimal b = 5;
+
+        if (b != 0) {
+            Decimal c = a / b;
+            System.debug('Division = ' + c);
+        } else {
+            System.debug('Division by zero is not allowed.');
+        }
+    }
+}
+
+
+// FirstClass.Add();
+// FirstClass.Subtract();
+// FirstClass.Multiply();
+// FirstClass.Divide();

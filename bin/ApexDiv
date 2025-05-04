@@ -1,0 +1,16 @@
+public class FirstClass {
+
+    public static void Division() {
+        Decimal a = 10;
+        Decimal b = 2;
+
+        if (b != 0) {
+            Decimal c = a / b;
+            System.debug('Division = ' + c);
+        } else {
+            System.debug('Division by zero is not allowed.');
+        }
+    }
+}
+
+// FirstClass.Division();

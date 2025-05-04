@@ -1,0 +1,8 @@
+public class FirstClass {
+
+    public static void WelcomeMessage() {
+        System.debug('Welcome to Apex Programming Language of Salesforce Platform');
+    }
+}
+
+//FirstClass.WelcomeMessage();

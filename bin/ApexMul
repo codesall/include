@@ -1,0 +1,13 @@
+public class FirstClass {
+
+    public static void Multiplication() {
+        Integer a = 6;
+        Integer b = 7;
+        Integer c = a * b;
+
+        System.debug('Multiplication = ' + c);
+    }
+}
+
+
+// FirstClass.Multiplication();

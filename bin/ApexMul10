@@ -1,0 +1,12 @@
+public class FirstClass {
+
+    public static void TableOfTen() {
+        Integer num = 10;
+        for (Integer i = 1; i <= 10; i++) {
+            Integer result = num * i;
+            System.debug(num + ' x ' + i + ' = ' + result);
+        }
+    }
+}
+
+// FirstClass.TableOfTen();

@@ -1,0 +1,12 @@
+public class FirstClass {
+
+    public static void TableOfFive() {
+        Integer num = 5;
+        for (Integer i = 1; i <= 10; i++) {
+            Integer result = num * i;
+            System.debug(num + ' x ' + i + ' = ' + result);
+        }
+    }
+}
+
+// FirstClass.TableOfFive();
